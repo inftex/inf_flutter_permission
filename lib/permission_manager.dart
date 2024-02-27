@@ -38,6 +38,15 @@ class PermissionnManager extends IPermissionnManager {
       case PermissionType.notification:
         p = phr.Permission.notification;
         break;
+      case PermissionType.camera:
+        p = phr.Permission.camera;
+        break;
+      case PermissionType.photos:
+        p = phr.Permission.photos;
+        break;
+      case PermissionType.microphone:
+        p = phr.Permission.microphone;
+        break;
       default:
         p = phr.Permission.notification;
         break;
