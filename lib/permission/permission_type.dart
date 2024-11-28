@@ -3,4 +3,5 @@ enum PermissionType {
   camera,
   photos,
   microphone,
+  scheduleExactAlarm,
 }
