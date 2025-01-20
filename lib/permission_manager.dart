@@ -50,6 +50,9 @@ class PermissionnManager extends IPermissionnManager {
       case PermissionType.scheduleExactAlarm:
         p = phr.Permission.scheduleExactAlarm;
         break;
+      case PermissionType.storage:
+        p = phr.Permission.storage;
+        break;
       default:
         p = phr.Permission.notification;
         break;
