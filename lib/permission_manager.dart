@@ -5,11 +5,11 @@ import 'permission/permission_status.dart';
 import 'permission/permission_type.dart';
 import 'permission_manager_abstract.dart';
 
-class PermissionnManager extends IPermissionnManager {
-  static PermissionnManager? _instance;
-  PermissionnManager._();
-  static PermissionnManager get instance {
-    _instance ??= PermissionnManager._();
+class PermissionManager extends IPermissionnManager {
+  static PermissionManager? _instance;
+  PermissionManager._();
+  static PermissionManager get instance {
+    _instance ??= PermissionManager._();
     return _instance!;
   }
 
