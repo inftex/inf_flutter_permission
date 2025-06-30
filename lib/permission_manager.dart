@@ -14,6 +14,11 @@ class PermissionManager extends IPermissionnManager {
   }
 
   @override
+  Future<bool> openAppSettings() {
+    return phr.openAppSettings();
+  }
+
+  @override
   Future<PermissionStatus> checkPermission(PermissionType type) async {
     phr.PermissionStatus status;
     switch (type) {

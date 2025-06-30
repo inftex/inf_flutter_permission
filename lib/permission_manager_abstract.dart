@@ -18,6 +18,11 @@ import 'permission/permission_type.dart';
 // end
 abstract class IPermissionnManager {
   ///
+  /// Open app settings to allow user to change permissions
+  ///
+  Future<bool> openAppSettings();
+
+  ///
   /// Add permissions to AndroidManifest.xml and Podfile
   ///
   Future<PermissionStatus> requestPermission(PermissionType type);
