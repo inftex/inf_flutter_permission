@@ -58,6 +58,9 @@ class PermissionManager extends IPermissionnManager {
       case PermissionType.storage:
         p = phr.Permission.storage;
         break;
+      case PermissionType.systemAlertWindow:
+        p = phr.Permission.systemAlertWindow;
+        break;
       default:
         p = phr.Permission.notification;
         break;

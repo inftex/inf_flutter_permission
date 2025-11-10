@@ -9,4 +9,5 @@ enum PermissionType {
   microphone,
   scheduleExactAlarm,
   storage,
+  systemAlertWindow, // android overlay only
 }
