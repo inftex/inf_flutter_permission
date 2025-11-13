@@ -20,14 +20,7 @@ class PermissionManager extends IPermissionnManager {
 
   @override
   Future<PermissionStatus> checkPermission(PermissionType type) async {
-    phr.PermissionStatus status;
-    switch (type) {
-      case PermissionType.notification:
-        status = await phr.Permission.notification.status;
-        break;
-      default:
-        status = phr.PermissionStatus.denied;
-    }
+    phr.PermissionStatus status = await _toConcretePermission(type).status;
     return _toBaseStatus(status);
   }
 
