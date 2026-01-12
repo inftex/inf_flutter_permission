@@ -45,6 +45,12 @@ class PermissionManager extends IPermissionnManager {
       case PermissionType.microphone:
         p = phr.Permission.microphone;
         break;
+      case PermissionType.audio:
+        p = phr.Permission.audio;
+        break;
+      case PermissionType.videos:
+        p = phr.Permission.videos;
+        break;
       case PermissionType.scheduleExactAlarm:
         p = phr.Permission.scheduleExactAlarm;
         break;

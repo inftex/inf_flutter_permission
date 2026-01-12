@@ -7,6 +7,8 @@ enum PermissionType {
   camera,
   photos,
   microphone,
+  audio,
+  videos,
   scheduleExactAlarm,
   storage,
   systemAlertWindow, // android overlay only
