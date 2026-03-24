@@ -79,6 +79,9 @@ class PermissionManager extends IPermissionnManager {
       case phr.PermissionStatus.restricted:
         s = PermissionStatus.restricted;
         break;
+      case phr.PermissionStatus.limited:
+        s = PermissionStatus.limited;
+        break;
       case phr.PermissionStatus.permanentlyDenied:
         s = PermissionStatus.permanentlyDenied;
         break;
