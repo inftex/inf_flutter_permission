@@ -6,6 +6,7 @@ enum PermissionType {
   notification,
   camera,
   photos,
+  photosAddOnly,
   microphone,
   audio,
   videos,

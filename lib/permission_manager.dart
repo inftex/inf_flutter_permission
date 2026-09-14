@@ -42,6 +42,9 @@ class PermissionManager extends IPermissionnManager {
       case PermissionType.photos:
         p = phr.Permission.photos;
         break;
+      case PermissionType.photosAddOnly:
+        p = phr.Permission.photosAddOnly;
+        break;
       case PermissionType.microphone:
         p = phr.Permission.microphone;
         break;
